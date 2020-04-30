@@ -1,0 +1,4 @@
+compton --config ~/.config/compton/compton.conf &
+xss-lock -- i3lock-fancy-rapid 10 3 &
+redshift -l 1.2041:103.4053 &
+mpd &
