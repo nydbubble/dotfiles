@@ -1,0 +1,6 @@
+#!/bin/bash
+
+picname=Screenshot_$(date +%s).png;
+file=~/Pictures/Screenshots/"$picname";
+maim -s "$file";
+notify-send "Screenshot taken" "$picname" -i "$file";
